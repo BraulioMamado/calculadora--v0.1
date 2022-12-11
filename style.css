@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(42, 42, 42);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+
+h2{
+    color: rgb(230, 230, 230);
+    font-size: 3em;
+    background: #444;
+    padding: 3px 15px;
+    border-radius: .5em;
+    border: 1px solid rgb(180, 81, 81);
+    filter: drop-shadow( 0 0 10px rgb(196, 109, 109));
+    text-align: center;
+}
+
+h2:hover{
+    color: rgb(33, 19, 19) !important;
+    background: rgb(155, 25, 25) !important;
+    transition: 250ms;
+    filter: drop-shadow(0 0 .5em red);
+    border: 1px solid rgb(211, 64, 64);
+}
+
+h1{
+    color: rgb(230, 230, 230);
+    font-size: 4em;
+    background: #444;
+    padding: 5px 30px;
+    border-radius: .6em;
+    border: 1px solid rgb(180, 81, 81);
+    filter: drop-shadow( 0 0 10px rgb(196, 109, 109));
+    letter-spacing: 2px;
+}
+
+h1:hover{
+    color: rgb(33, 19, 19) !important;
+    background: rgb(155, 25, 25) !important;
+    transition: 250ms;
+    filter: drop-shadow(0 0 .5em red);
+    border: 1px solid rgb(211, 64, 64);
+}
+
+#resultado{
+    color:#f55;
+}
+
+#texto{
+    color:#ddd;
+    font-size:3em;
+    background-color:#444;
+    padding: 0 20px;
+    border: 3px dotted rgb(223, 223, 223);
+    border-radius:.5em
+}
+
+#texto:hover{
+    color: rgb(255, 255, 255) !important;
+    background: #666 !important;
+    transition: 250ms;
+}
